@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-  <ProjectReference Include="..\atividade es2.csproj" />
+  <ProjectReference Include="..\atividade_es2.csproj" />
   </ItemGroup>
 
 </Project>

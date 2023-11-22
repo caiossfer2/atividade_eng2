@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/caiossfer/Área de Trabalho/atividade es2/atividade es2.csproj": {}
+    "/home/caiossfer/Área de Trabalho/atividade_es2/atividade_es2.csproj": {}
   },
   "projects": {
-    "/home/caiossfer/Área de Trabalho/atividade es2/atividade es2.csproj": {
+    "/home/caiossfer/Área de Trabalho/atividade_es2/atividade_es2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/caiossfer/Área de Trabalho/atividade es2/atividade es2.csproj",
-        "projectName": "atividade es2",
-        "projectPath": "/home/caiossfer/Área de Trabalho/atividade es2/atividade es2.csproj",
+        "projectUniqueName": "/home/caiossfer/Área de Trabalho/atividade_es2/atividade_es2.csproj",
+        "projectName": "atividade_es2",
+        "projectPath": "/home/caiossfer/Área de Trabalho/atividade_es2/atividade_es2.csproj",
         "packagesPath": "/home/caiossfer/.nuget/packages/",
-        "outputPath": "/home/caiossfer/Área de Trabalho/atividade es2/obj/",
+        "outputPath": "/home/caiossfer/Área de Trabalho/atividade_es2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/caiossfer/.nuget/NuGet/NuGet.Config"
@@ -43,8 +43,6 @@
               "version": "[17.3.2, )"
             },
             "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
             },

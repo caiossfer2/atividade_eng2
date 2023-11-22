@@ -91,7 +91,7 @@ using Xunit;
             double valor1 = 10;
             double valor2 = 5;
             string operador = "#";
-            string mensagemEsperada = "Operador inválido.";
+            string mensagemEsperada = "Erro: Operador inválido.";
 
             // Act
             Exception ex = Assert.Throws<Exception>(() => Calculadora.Calcular(valor1, valor2, operador));

@@ -23,11 +23,11 @@ namespace atividade_es2
                         resultado = valor1 / valor2;
                     else
                     {
-                        throw new ArgumentException("Erro: divisão por zero");
+                        throw new Exception("Erro: divisão por zero.");
                     }
                     break;
                 default:
-                    throw new ArgumentException("Erro: Operador inválido");
+                    throw new Exception("Erro: Operador inválido.");
             }
             return resultado;
 
