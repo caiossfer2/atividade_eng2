@@ -8,17 +8,16 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest          
     strategy:
       matrix:
-        dotnet-version: ['7.0.x']
-        
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}    
     steps:
       - uses: actions/checkout@v4
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: ${{ matrix.dotnet-version }}
+          dotnet-version: 7.x
       - name: Install dependencies
         run: dotnet restore
 
